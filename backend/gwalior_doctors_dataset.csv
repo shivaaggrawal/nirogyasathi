@@ -1,0 +1,201 @@
+Doctor Name,Specialization,Experience (Years),Rating,Reviews,Fees (₹),Location,Availability,Hospital Name
+Dr. Neha Gupta 0,Cardiologist,5,5,116,467,Kampoo,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Ankit Jain 1,Cardiologist,19,4.3,33,1036,Lashkar,Mon-Sat (10am-2pm),Global Hospital
+Dr. Neha Gupta 2,Urologist,30,4.6,66,519,City Center,Mon-Fri (5pm-8pm),JAH Hospital
+Dr. Pooja Singh 3,General Physician,16,3.9,130,498,City Center,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Pooja Singh 4,General Physician,15,3.8,154,821,Kampoo,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Amit Sharma 5,Neurologist,16,3.9,178,787,Kampoo,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Neha Gupta 6,Cardiologist,21,4.4,134,448,City Center,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Amit Sharma 7,Gynecologist,21,4.9,257,245,Gandhi Road,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Neha Gupta 8,General Physician,26,3.9,205,726,Kampoo,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Ritu Mishra 9,Orthopedic,26,3.6,12,767,Kampoo,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Neha Gupta 10,Urologist,19,4.8,239,1147,Morar,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Rahul Verma 11,General Physician,9,4.9,208,1197,Kampoo,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Pooja Singh 12,Gynecologist,13,4.9,206,265,City Center,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Ritu Mishra 13,Dermatologist,3,3.6,93,1197,Morar,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Ritu Mishra 14,Urologist,10,3.7,248,347,Morar,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Pooja Singh 15,Gynecologist,13,3.7,199,1140,City Center,Mon-Fri (5pm-8pm),JAH Hospital
+Dr. Amit Sharma 16,Orthopedic,4,4.7,243,709,Thatipur,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Ankit Jain 17,Gynecologist,5,4.5,158,423,Thatipur,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Ankit Jain 18,Urologist,23,4.4,72,995,Gandhi Road,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Ankit Jain 19,Orthopedic,27,4.5,272,590,Kampoo,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Rahul Verma 20,Pediatrician,20,4.5,240,745,Kampoo,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Ankit Jain 21,Gynecologist,14,3.9,68,889,Lashkar,Mon-Sat (10am-2pm),BIMR Hospital
+Dr. Neha Gupta 22,Urologist,30,4,160,411,Thatipur,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Amit Sharma 23,Dermatologist,24,3.9,197,538,Thatipur,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Sneha Dubey 24,Pediatrician,9,4,159,1180,Lashkar,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Amit Sharma 25,Neurologist,21,4.2,290,303,Thatipur,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Amit Sharma 26,Pediatrician,11,3.8,282,932,Morar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Pooja Singh 27,Gynecologist,30,4.9,66,1125,Morar,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Sneha Dubey 28,Gynecologist,2,4.5,177,344,City Center,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Sneha Dubey 29,Cardiologist,24,3.5,231,201,Morar,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Amit Sharma 30,General Physician,14,4.8,163,338,City Center,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Pooja Singh 31,Gynecologist,9,3.8,95,1017,Morar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Neha Gupta 32,Gynecologist,21,3.7,275,271,Thatipur,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Karan Patel 33,Cardiologist,23,3.9,148,386,City Center,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Sneha Dubey 34,General Physician,14,4.3,110,356,City Center,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Pooja Singh 35,Cardiologist,25,3.9,185,621,Kampoo,Tue-Sun (3pm-7pm),BIMR Hospital
+Dr. Amit Sharma 36,Cardiologist,27,3.8,164,729,Kampoo,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Neha Gupta 37,Neurologist,16,4,238,959,Gandhi Road,Mon-Sat (10am-2pm),Global Hospital
+Dr. Karan Patel 38,Urologist,17,4.2,61,247,Lashkar,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Ankit Jain 39,Pediatrician,7,3.6,82,563,Morar,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Karan Patel 40,Neurologist,15,4.6,271,957,Thatipur,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Sneha Dubey 41,Orthopedic,29,4.1,282,401,Gandhi Road,Mon-Fri (5pm-8pm),Navjeevan Hospital
+Dr. Ritu Mishra 42,Orthopedic,12,4.5,123,326,Kampoo,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Ankit Jain 43,Orthopedic,13,4.6,53,586,City Center,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Rahul Verma 44,Neurologist,17,3.7,103,389,City Center,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Sneha Dubey 45,Pediatrician,7,4.5,249,1004,Gandhi Road,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Rahul Verma 46,Gynecologist,26,4.4,19,610,Morar,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Karan Patel 47,General Physician,23,3.5,205,1198,Kampoo,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Ankit Jain 48,Dermatologist,10,4.1,43,962,Lashkar,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Rahul Verma 49,Gynecologist,24,5,243,297,City Center,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Karan Patel 50,Orthopedic,12,4.9,202,841,Morar,Mon-Fri (5pm-8pm),JAH Hospital
+Dr. Rahul Verma 51,Neurologist,26,3.6,16,343,Gandhi Road,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Karan Patel 52,Dermatologist,20,3.7,216,968,Morar,Mon-Sat (10am-2pm),Global Hospital
+Dr. Rahul Verma 53,Orthopedic,14,4.8,53,957,Lashkar,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Neha Gupta 54,Dermatologist,9,4.7,212,794,Lashkar,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Amit Sharma 55,Dermatologist,16,4.2,239,1002,Kampoo,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Ritu Mishra 56,Dermatologist,25,4.1,177,703,Kampoo,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Ritu Mishra 57,Pediatrician,28,4,108,1042,City Center,Mon-Sat (11am-5pm),Global Hospital
+Dr. Rahul Verma 58,Pediatrician,27,5,279,859,Thatipur,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Ankit Jain 59,Gynecologist,1,4.8,13,1137,Thatipur,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Karan Patel 60,Cardiologist,17,4.4,120,407,Morar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Amit Sharma 61,Dermatologist,11,3.7,274,308,City Center,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Ritu Mishra 62,Urologist,5,4.5,268,657,Kampoo,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Karan Patel 63,Orthopedic,13,4.3,243,640,Morar,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Pooja Singh 64,Gynecologist,4,4.4,184,825,Thatipur,Mon-Sat (11am-5pm),Global Hospital
+Dr. Ritu Mishra 65,Orthopedic,18,4.5,203,241,Morar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Rahul Verma 66,Urologist,2,3.9,280,952,City Center,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Ankit Jain 67,Dermatologist,20,4.9,36,375,Morar,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Ritu Mishra 68,Pediatrician,6,3.6,137,652,Thatipur,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Ritu Mishra 69,Cardiologist,21,3.8,107,630,Morar,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Ankit Jain 70,Orthopedic,18,4.5,252,669,Kampoo,Mon-Fri (5pm-8pm),Navjeevan Hospital
+Dr. Ankit Jain 71,Urologist,29,4.1,165,718,Morar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Ritu Mishra 72,Urologist,30,4.7,130,598,Gandhi Road,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Pooja Singh 73,Pediatrician,14,4.3,236,976,Lashkar,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Neha Gupta 74,Orthopedic,18,3.9,250,253,City Center,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Ankit Jain 75,Cardiologist,15,3.9,36,290,Kampoo,Mon-Sat (11am-5pm),Global Hospital
+Dr. Karan Patel 76,Urologist,10,5,22,595,Thatipur,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Amit Sharma 77,Urologist,26,4.1,33,539,Lashkar,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Rahul Verma 78,Gynecologist,21,3.7,64,313,Lashkar,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Pooja Singh 79,General Physician,2,4,85,588,Lashkar,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Karan Patel 80,Pediatrician,4,4,279,884,Kampoo,Mon-Sat (10am-2pm),Global Hospital
+Dr. Sneha Dubey 81,Gynecologist,27,4.8,97,850,Lashkar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Ritu Mishra 82,Cardiologist,21,4.3,122,431,City Center,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Karan Patel 83,General Physician,3,4,275,234,Lashkar,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Rahul Verma 84,Gynecologist,29,4.1,60,348,Lashkar,Mon-Sat (10am-2pm),BIMR Hospital
+Dr. Amit Sharma 85,Gynecologist,11,4.8,193,974,Morar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Ritu Mishra 86,Dermatologist,4,4.6,87,1064,City Center,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Sneha Dubey 87,Gynecologist,14,4.9,132,493,Kampoo,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Ritu Mishra 88,Urologist,10,4.5,160,927,Thatipur,Tue-Sun (3pm-7pm),BIMR Hospital
+Dr. Pooja Singh 89,Pediatrician,12,3.7,43,244,Kampoo,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Rahul Verma 90,Pediatrician,28,4,175,724,Kampoo,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Ankit Jain 91,Cardiologist,15,4.8,244,786,Thatipur,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Neha Gupta 92,Dermatologist,7,4.6,152,1059,Morar,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Amit Sharma 93,Pediatrician,23,3.7,23,939,Gandhi Road,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Amit Sharma 94,Gynecologist,23,4.2,185,782,Gandhi Road,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Ritu Mishra 95,Dermatologist,30,4.8,231,738,Gandhi Road,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Ritu Mishra 96,Urologist,12,4.3,112,1180,Gandhi Road,Tue-Sun (3pm-7pm),City Care Clinic
+Dr. Neha Gupta 97,Dermatologist,9,4.4,59,603,Morar,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Rahul Verma 98,Urologist,10,3.5,122,1091,Morar,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Rahul Verma 99,Pediatrician,28,3.7,46,810,Kampoo,Tue-Sun (3pm-7pm),BIMR Hospital
+Dr. Sneha Dubey 100,Neurologist,26,3.7,284,478,Gandhi Road,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Amit Sharma 101,Urologist,19,4.6,64,987,Thatipur,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Ritu Mishra 102,Orthopedic,20,4,112,1120,Lashkar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Ritu Mishra 103,Orthopedic,27,3.9,14,623,City Center,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Amit Sharma 104,Pediatrician,27,4.8,226,711,Lashkar,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Rahul Verma 105,Neurologist,15,3.6,100,593,Gandhi Road,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Amit Sharma 106,Dermatologist,21,4.4,300,647,Gandhi Road,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Ankit Jain 107,General Physician,12,4.7,223,964,City Center,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Rahul Verma 108,Dermatologist,1,4.3,216,796,Kampoo,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Pooja Singh 109,Dermatologist,11,3.7,251,572,Kampoo,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Ritu Mishra 110,Pediatrician,2,4.2,41,785,Kampoo,Tue-Sun (3pm-7pm),BIMR Hospital
+Dr. Pooja Singh 111,Gynecologist,21,4.7,200,1147,Gandhi Road,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Karan Patel 112,Neurologist,23,3.7,191,408,Gandhi Road,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Karan Patel 113,General Physician,22,4,122,231,City Center,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Rahul Verma 114,Gynecologist,27,4.5,21,324,Lashkar,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Sneha Dubey 115,Gynecologist,19,3.9,103,786,Thatipur,Mon-Sat (11am-5pm),Global Hospital
+Dr. Rahul Verma 116,Dermatologist,16,3.9,284,239,Kampoo,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Ritu Mishra 117,Dermatologist,8,3.6,167,410,City Center,Tue-Sun (3pm-7pm),City Care Clinic
+Dr. Rahul Verma 118,Gynecologist,12,4.2,60,743,Thatipur,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Karan Patel 119,Gynecologist,21,4.3,75,301,Morar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Rahul Verma 120,Gynecologist,12,4.5,254,285,Lashkar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Pooja Singh 121,General Physician,28,4.6,46,409,Thatipur,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Neha Gupta 122,Dermatologist,7,4.1,298,1075,Lashkar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Karan Patel 123,General Physician,9,4.8,109,907,Lashkar,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Ankit Jain 124,General Physician,15,4.5,182,287,City Center,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Amit Sharma 125,Orthopedic,27,3.9,155,400,Lashkar,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Pooja Singh 126,Urologist,10,4.6,112,910,Kampoo,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Pooja Singh 127,Urologist,24,4,173,637,Kampoo,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Neha Gupta 128,General Physician,30,4.7,30,813,Morar,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Neha Gupta 129,Cardiologist,12,4.5,137,1063,Morar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Neha Gupta 130,Urologist,21,4,65,415,Morar,Tue-Sun (3pm-7pm),City Care Clinic
+Dr. Amit Sharma 131,Orthopedic,21,4.1,263,1016,Morar,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Pooja Singh 132,Urologist,5,4.5,228,619,Kampoo,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Ankit Jain 133,Neurologist,25,4,281,447,Kampoo,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Karan Patel 134,General Physician,14,3.9,84,557,Thatipur,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Rahul Verma 135,Neurologist,19,4.9,263,509,Lashkar,Mon-Sat (11am-5pm),Global Hospital
+Dr. Ritu Mishra 136,Neurologist,11,4.9,74,668,City Center,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Karan Patel 137,Cardiologist,30,4.9,29,462,City Center,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Sneha Dubey 138,Orthopedic,24,4.7,263,710,Kampoo,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Karan Patel 139,Neurologist,12,4,142,821,Lashkar,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Pooja Singh 140,Cardiologist,25,3.7,159,413,Thatipur,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Rahul Verma 141,Neurologist,5,4.8,79,383,City Center,Mon-Sat (11am-5pm),Global Hospital
+Dr. Ritu Mishra 142,Gynecologist,27,4.5,195,1170,City Center,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Amit Sharma 143,General Physician,8,5,37,1032,Gandhi Road,Tue-Sun (3pm-7pm),City Care Clinic
+Dr. Pooja Singh 144,Neurologist,23,4.3,299,681,Morar,Mon-Sat (10am-2pm),Global Hospital
+Dr. Amit Sharma 145,General Physician,6,4.3,102,1073,Morar,Tue-Sun (3pm-7pm),BIMR Hospital
+Dr. Ritu Mishra 146,General Physician,24,4.1,235,767,Thatipur,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Sneha Dubey 147,Urologist,27,5,55,659,Lashkar,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Ankit Jain 148,Dermatologist,17,3.9,149,708,Thatipur,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Pooja Singh 149,Orthopedic,9,5,105,452,Kampoo,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Karan Patel 150,Gynecologist,19,4.1,225,1155,Lashkar,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Amit Sharma 151,Pediatrician,17,3.8,225,1014,Lashkar,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Rahul Verma 152,Gynecologist,19,4.8,43,993,City Center,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Amit Sharma 153,Urologist,14,4.1,46,847,Morar,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Ankit Jain 154,Urologist,16,4,72,1140,Thatipur,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Sneha Dubey 155,General Physician,25,4.9,32,903,City Center,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Ankit Jain 156,Cardiologist,12,3.7,292,1138,Kampoo,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Ankit Jain 157,Cardiologist,27,4,41,358,Lashkar,Mon-Sat (11am-5pm),Navjeevan Hospital
+Dr. Pooja Singh 158,Pediatrician,19,4.1,287,369,Lashkar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Neha Gupta 159,Gynecologist,23,3.8,115,657,Kampoo,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Karan Patel 160,Neurologist,16,3.7,140,596,Morar,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Rahul Verma 161,Pediatrician,30,4.2,179,968,Morar,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Neha Gupta 162,Neurologist,21,4.1,41,442,City Center,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Amit Sharma 163,Urologist,30,4.6,37,696,Kampoo,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Pooja Singh 164,Orthopedic,3,4.1,296,550,Morar,Tue-Sun (3pm-7pm),Apollo Clinic
+Dr. Sneha Dubey 165,Neurologist,1,4.4,24,345,City Center,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Ritu Mishra 166,Urologist,3,4.4,35,878,City Center,Mon-Sat (10am-2pm),BIMR Hospital
+Dr. Karan Patel 167,Gynecologist,26,3.5,229,331,Morar,Tue-Sun (3pm-7pm),JAH Hospital
+Dr. Amit Sharma 168,General Physician,15,4.8,63,843,Gandhi Road,Tue-Sun (3pm-7pm),City Care Clinic
+Dr. Rahul Verma 169,Neurologist,1,4.1,157,289,Gandhi Road,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Sneha Dubey 170,Pediatrician,10,4.7,260,248,Morar,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Karan Patel 171,Neurologist,8,4.7,209,1156,Lashkar,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Amit Sharma 172,Pediatrician,17,4.8,101,824,Thatipur,Mon-Sat (10am-2pm),Global Hospital
+Dr. Neha Gupta 173,Orthopedic,13,4.2,246,321,Morar,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Karan Patel 174,Pediatrician,3,4.5,219,466,Thatipur,Tue-Sun (3pm-7pm),Navjeevan Hospital
+Dr. Ankit Jain 175,Orthopedic,21,4.8,282,311,Lashkar,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Rahul Verma 176,Gynecologist,23,4.7,212,1102,Lashkar,Mon-Sat (10am-2pm),JAH Hospital
+Dr. Ritu Mishra 177,Dermatologist,5,3.7,290,939,Morar,Mon-Sat (10am-2pm),Apollo Clinic
+Dr. Neha Gupta 178,Pediatrician,1,4.1,166,1028,Thatipur,Tue-Sun (3pm-7pm),BIMR Hospital
+Dr. Amit Sharma 179,Dermatologist,1,4.7,193,200,Morar,Tue-Sun (3pm-7pm),Global Hospital
+Dr. Neha Gupta 180,Cardiologist,25,5,145,1062,Morar,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Pooja Singh 181,Gynecologist,25,4.2,256,1165,Gandhi Road,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Ritu Mishra 182,Urologist,3,4.4,186,1004,Gandhi Road,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Amit Sharma 183,Pediatrician,28,4.2,170,867,Morar,Mon-Fri (5pm-8pm),Global Hospital
+Dr. Ankit Jain 184,Gynecologist,11,4.2,211,673,Lashkar,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Pooja Singh 185,Cardiologist,23,3.6,145,547,Gandhi Road,Mon-Sat (11am-5pm),BIMR Hospital
+Dr. Ritu Mishra 186,General Physician,1,4.7,68,309,Lashkar,Mon-Sat (11am-5pm),Global Hospital
+Dr. Ankit Jain 187,Urologist,3,3.6,63,343,Thatipur,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Karan Patel 188,Urologist,7,3.9,58,1047,Lashkar,Mon-Fri (5pm-8pm),BIMR Hospital
+Dr. Neha Gupta 189,Neurologist,10,3.9,190,483,Lashkar,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Karan Patel 190,Gynecologist,13,5,254,1194,Gandhi Road,Mon-Sat (11am-5pm),Apollo Clinic
+Dr. Ritu Mishra 191,Orthopedic,13,4.2,93,329,Gandhi Road,Mon-Fri (5pm-8pm),Apollo Clinic
+Dr. Sneha Dubey 192,Pediatrician,25,3.8,63,338,Gandhi Road,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Ankit Jain 193,Gynecologist,28,4,176,569,Morar,Mon-Sat (10am-2pm),Navjeevan Hospital
+Dr. Ritu Mishra 194,Pediatrician,15,3.9,239,1042,Kampoo,Mon-Fri (5pm-8pm),City Care Clinic
+Dr. Amit Sharma 195,Cardiologist,4,4.9,256,484,Kampoo,Mon-Fri (5pm-8pm),Navjeevan Hospital
+Dr. Ankit Jain 196,General Physician,19,3.8,71,819,Kampoo,Mon-Sat (11am-5pm),City Care Clinic
+Dr. Sneha Dubey 197,Cardiologist,2,4.1,59,251,Kampoo,Mon-Sat (10am-2pm),City Care Clinic
+Dr. Amit Sharma 198,Pediatrician,14,3.5,53,704,Kampoo,Mon-Sat (11am-5pm),JAH Hospital
+Dr. Ritu Mishra 199,Gynecologist,2,4.2,16,1061,Morar,Mon-Sat (10am-2pm),BIMR Hospital
