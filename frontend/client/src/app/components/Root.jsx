@@ -45,7 +45,7 @@ export function Root() {
                 { name: "Home", path: "/" },
                 { name: "Symptom Checker", path: "/symptoms" },
                 { name: "Find Doctors", path: "/doctors" },
-                { name: "Lab", path: "/lab" }, // ✅ Added
+                { name: "Find Labs", path: "/labs" },
                 { name: "Medical Profile", path: "/records" },
               ].map((link) => (
                 <Link
@@ -104,7 +104,7 @@ export function Root() {
                   Find Doctors
                 </Link>
                 <Link to="/labs" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-3 font-bold text-slate-700 hover:bg-slate-50 rounded-xl">
-                  Labs
+                  Find Labs
                 </Link>
 
 

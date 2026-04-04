@@ -1,0 +1,101 @@
+lab_id,lab_name,city,latitude,longitude,tests_available,test_type,price_range,rating,reviews_count,home_collection,opening_time,closing_time
+1,Gwalior Diagnostic Lab 1,Gwalior,26.240608,78.106802,"xray,hba1c,cbc,thyroid profile","radiology,pathology",632-1197,3.2,121,yes,08:00,22:00
+2,Gwalior Diagnostic Lab 2,Gwalior,26.142546,78.134614,"xray,blood sugar,full body checkup","general,pathology,radiology",548-1617,3.4,500,no,06:00,20:00
+3,Gwalior Diagnostic Lab 3,Gwalior,26.199088,78.160237,"cbc,ct scan,mri,hba1c","imaging,pathology",570-2252,3.5,45,yes,08:00,20:00
+4,Gwalior Diagnostic Lab 4,Gwalior,26.261991,78.260435,"lipid profile,hba1c",pathology,573-1406,3.8,117,no,08:00,22:00
+5,Gwalior Diagnostic Lab 5,Gwalior,26.241986,78.200261,xray,radiology,588-1640,4.8,337,yes,08:00,21:00
+6,Gwalior Diagnostic Lab 6,Gwalior,26.273156,78.22696,"lipid profile,hba1c",pathology,267-1199,4.7,300,no,06:00,22:00
+7,Gwalior Diagnostic Lab 7,Gwalior,26.218177,78.244349,"thyroid profile,xray,full body checkup,hba1c,lipid profile","general,pathology,radiology",797-2114,3.8,80,no,06:00,20:00
+8,Gwalior Diagnostic Lab 8,Gwalior,26.276076,78.127255,full body checkup,general,594-1875,4.2,249,no,08:00,20:00
+9,Gwalior Diagnostic Lab 9,Gwalior,26.247145,78.121128,"xray,ct scan,full body checkup","imaging,general,radiology",469-2959,4.0,101,yes,08:00,21:00
+10,Gwalior Diagnostic Lab 10,Gwalior,26.272967,78.184026,xray,radiology,752-3204,4.4,281,yes,08:00,21:00
+11,Gwalior Diagnostic Lab 11,Gwalior,26.216477,78.120699,"thyroid profile,cbc,mri,hba1c","imaging,pathology",697-2868,3.3,399,yes,06:00,22:00
+12,Gwalior Diagnostic Lab 12,Gwalior,26.214345,78.190769,"lipid profile,thyroid profile,full body checkup,hba1c","general,pathology",582-1979,4.6,241,yes,06:00,20:00
+13,Gwalior Diagnostic Lab 13,Gwalior,26.148544,78.106165,"xray,cbc,ct scan,mri","radiology,imaging,pathology",538-1183,4.0,152,no,06:00,22:00
+14,Gwalior Diagnostic Lab 14,Gwalior,26.15947,78.252482,"xray,cbc,full body checkup","general,pathology,radiology",562-1929,3.9,452,yes,08:00,22:00
+15,Gwalior Diagnostic Lab 15,Gwalior,26.295766,78.118547,"thyroid profile,mri","imaging,pathology",659-1446,3.9,152,no,06:00,20:00
+16,Gwalior Diagnostic Lab 16,Gwalior,26.209201,78.240616,"blood sugar,ct scan,full body checkup,mri","pathology,general,imaging",610-2958,3.3,204,yes,07:00,21:00
+17,Gwalior Diagnostic Lab 17,Gwalior,26.286543,78.228421,"full body checkup,mri","general,imaging",503-1448,4.7,306,yes,08:00,21:00
+18,Gwalior Diagnostic Lab 18,Gwalior,26.147446,78.196268,"xray,cbc,blood sugar,lipid profile,mri","radiology,pathology,imaging",792-2509,3.3,51,no,08:00,22:00
+19,Gwalior Diagnostic Lab 19,Gwalior,26.228736,78.153419,"xray,ct scan","radiology,imaging",605-1373,4.3,163,no,07:00,20:00
+20,Gwalior Diagnostic Lab 20,Gwalior,26.13979,78.202185,"full body checkup,hba1c,blood sugar,ct scan,lipid profile,mri","pathology,general,imaging",648-2855,4.1,164,yes,08:00,22:00
+21,Gwalior Diagnostic Lab 21,Gwalior,26.186201,78.208942,mri,imaging,766-1584,3.6,319,yes,08:00,21:00
+22,Gwalior Diagnostic Lab 22,Gwalior,26.170876,78.204278,"xray,full body checkup","general,radiology",483-1073,3.2,404,yes,08:00,21:00
+23,Gwalior Diagnostic Lab 23,Gwalior,26.164153,78.173494,"thyroid profile,full body checkup,blood sugar,ct scan,mri","general,imaging,pathology",640-1401,3.3,196,yes,07:00,20:00
+24,Gwalior Diagnostic Lab 24,Gwalior,26.247431,78.209509,"full body checkup,mri","general,imaging",381-2686,3.9,101,no,07:00,22:00
+25,Gwalior Diagnostic Lab 25,Gwalior,26.27655,78.23252,"xray,ct scan","radiology,imaging",427-1335,4.5,245,no,07:00,20:00
+26,Gwalior Diagnostic Lab 26,Gwalior,26.173968,78.208405,"xray,ct scan","imaging,radiology",749-1927,4.7,69,no,06:00,22:00
+27,Gwalior Diagnostic Lab 27,Gwalior,26.292305,78.145275,full body checkup,general,646-2387,4.8,69,no,08:00,20:00
+28,Gwalior Diagnostic Lab 28,Gwalior,26.179056,78.216206,xray,radiology,271-2714,4.3,179,no,08:00,20:00
+29,Gwalior Diagnostic Lab 29,Gwalior,26.253461,78.150852,"xray,full body checkup","general,radiology",396-1757,4.3,204,yes,08:00,22:00
+30,Gwalior Diagnostic Lab 30,Gwalior,26.186452,78.19047,"ct scan,mri",imaging,793-2535,4.2,248,no,07:00,22:00
+31,Gwalior Diagnostic Lab 31,Gwalior,26.172492,78.17851,"xray,cbc,hba1c,blood sugar,mri","radiology,imaging,pathology",350-900,3.3,253,yes,07:00,21:00
+32,Gwalior Diagnostic Lab 32,Gwalior,26.280082,78.194907,"xray,ct scan,full body checkup","general,radiology,imaging",424-1284,4.5,366,no,06:00,22:00
+33,Gwalior Diagnostic Lab 33,Gwalior,26.178172,78.238534,"xray,full body checkup","radiology,general",761-2174,4.6,390,no,07:00,21:00
+34,Gwalior Diagnostic Lab 34,Gwalior,26.258584,78.237178,"ct scan,full body checkup,mri","general,imaging",440-1496,3.7,467,yes,06:00,20:00
+35,Gwalior Diagnostic Lab 35,Gwalior,26.175302,78.213832,"xray,thyroid profile,cbc,full body checkup,lipid profile","radiology,pathology,general",598-2951,4.4,494,yes,08:00,21:00
+36,Gwalior Diagnostic Lab 36,Gwalior,26.214617,78.253639,"xray,full body checkup","general,radiology",479-1871,4.0,209,no,08:00,22:00
+37,Gwalior Diagnostic Lab 37,Gwalior,26.266003,78.218669,"xray,ct scan,mri","radiology,imaging",638-1415,4.6,103,yes,07:00,21:00
+38,Gwalior Diagnostic Lab 38,Gwalior,26.190676,78.175552,"xray,full body checkup","general,radiology",219-2253,4.1,497,no,06:00,22:00
+39,Gwalior Diagnostic Lab 39,Gwalior,26.149279,78.255966,blood sugar,pathology,220-1992,3.4,74,no,08:00,20:00
+40,Gwalior Diagnostic Lab 40,Gwalior,26.228535,78.137674,"xray,cbc,hba1c,ct scan,lipid profile,mri","imaging,radiology,pathology",584-1896,4.7,111,yes,08:00,22:00
+41,Gwalior Diagnostic Lab 41,Gwalior,26.271191,78.141656,"thyroid profile,cbc,full body checkup,hba1c,ct scan,mri","imaging,general,pathology",549-1074,4.6,431,no,06:00,21:00
+42,Gwalior Diagnostic Lab 42,Gwalior,26.292026,78.204494,"xray,full body checkup","radiology,general",676-2068,4.5,313,no,07:00,20:00
+43,Gwalior Diagnostic Lab 43,Gwalior,26.271217,78.116666,"xray,full body checkup","radiology,general",706-2948,3.7,259,yes,07:00,21:00
+44,Gwalior Diagnostic Lab 44,Gwalior,26.192754,78.243651,"thyroid profile,full body checkup,blood sugar,ct scan,mri","imaging,general,pathology",687-2509,4.3,239,yes,06:00,21:00
+45,Gwalior Diagnostic Lab 45,Gwalior,26.173755,78.213486,"xray,ct scan,mri","imaging,radiology",560-2499,3.9,166,no,06:00,20:00
+46,Gwalior Diagnostic Lab 46,Gwalior,26.253705,78.153288,"xray,hba1c,mri,thyroid profile","radiology,pathology,imaging",503-1468,3.8,164,yes,08:00,22:00
+47,Gwalior Diagnostic Lab 47,Gwalior,26.158553,78.110083,"ct scan,mri",imaging,305-2592,3.2,155,no,07:00,21:00
+48,Gwalior Diagnostic Lab 48,Gwalior,26.192813,78.25728,"thyroid profile,cbc,full body checkup","general,pathology",355-1160,4.5,495,no,06:00,20:00
+49,Gwalior Diagnostic Lab 49,Gwalior,26.157252,78.225111,"xray,ct scan,mri,full body checkup","radiology,imaging,general",301-2741,4.4,330,yes,07:00,22:00
+50,Gwalior Diagnostic Lab 50,Gwalior,26.15129,78.141178,"lipid profile,ct scan,full body checkup,thyroid profile","pathology,general,imaging",489-2428,4.6,46,yes,07:00,22:00
+51,Raipur Diagnostic Lab 1,Raipur,21.265766,81.678225,full body checkup,general,352-2712,3.6,82,yes,06:00,20:00
+52,Raipur Diagnostic Lab 2,Raipur,21.298221,81.644807,"xray,thyroid profile,cbc,ct scan,mri","imaging,radiology,pathology",642-2646,3.7,138,yes,06:00,20:00
+53,Raipur Diagnostic Lab 3,Raipur,21.325306,81.683353,"xray,cbc,blood sugar,ct scan,lipid profile,mri","pathology,imaging,radiology",703-3187,3.3,188,no,07:00,21:00
+54,Raipur Diagnostic Lab 4,Raipur,21.278621,81.686837,"ct scan,full body checkup,mri","general,imaging",665-1345,3.7,175,yes,07:00,22:00
+55,Raipur Diagnostic Lab 5,Raipur,21.303388,81.549784,"xray,thyroid profile,cbc,full body checkup,lipid profile","general,radiology,pathology",473-2097,3.4,157,no,08:00,21:00
+56,Raipur Diagnostic Lab 6,Raipur,21.190828,81.705303,"xray,cbc,ct scan,mri","radiology,imaging,pathology",672-3111,3.4,436,yes,07:00,22:00
+57,Raipur Diagnostic Lab 7,Raipur,21.218098,81.662466,"xray,full body checkup","general,radiology",592-1482,4.7,270,yes,06:00,21:00
+58,Raipur Diagnostic Lab 8,Raipur,21.295028,81.686306,"lipid profile,ct scan,mri","imaging,pathology",751-2242,3.8,292,no,07:00,21:00
+59,Raipur Diagnostic Lab 9,Raipur,21.310536,81.706524,full body checkup,general,244-1395,4.4,371,no,07:00,22:00
+60,Raipur Diagnostic Lab 10,Raipur,21.298183,81.653923,full body checkup,general,714-3191,4.1,455,yes,07:00,20:00
+61,Raipur Diagnostic Lab 11,Raipur,21.255552,81.622708,"xray,cbc,full body checkup,blood sugar,lipid profile","radiology,general,pathology",746-2024,4.7,330,no,08:00,20:00
+62,Raipur Diagnostic Lab 12,Raipur,21.270194,81.587163,"full body checkup,hba1c,blood sugar,ct scan,mri","imaging,pathology,general",532-2662,3.3,193,no,07:00,20:00
+63,Raipur Diagnostic Lab 13,Raipur,21.210472,81.615528,"xray,hba1c,blood sugar,lipid profile,mri","radiology,pathology,imaging",672-2478,3.6,140,yes,07:00,21:00
+64,Raipur Diagnostic Lab 14,Raipur,21.279818,81.574876,"full body checkup,ct scan,mri","imaging,general",403-1690,4.6,64,yes,07:00,22:00
+65,Raipur Diagnostic Lab 15,Raipur,21.228833,81.59694,"xray,cbc,hba1c,ct scan,lipid profile,mri","imaging,pathology,radiology",424-2227,3.5,138,yes,08:00,20:00
+66,Raipur Diagnostic Lab 16,Raipur,21.315945,81.653014,"cbc,blood sugar,full body checkup,thyroid profile","general,pathology",534-2564,3.9,112,yes,08:00,21:00
+67,Raipur Diagnostic Lab 17,Raipur,21.256336,81.695758,"ct scan,mri",imaging,317-1776,4.7,82,yes,08:00,22:00
+68,Raipur Diagnostic Lab 18,Raipur,21.279305,81.613186,"xray,cbc,blood sugar,ct scan,lipid profile","imaging,pathology,radiology",798-2078,4.5,491,no,06:00,22:00
+69,Raipur Diagnostic Lab 19,Raipur,21.208812,81.553604,"thyroid profile,cbc,full body checkup,ct scan,lipid profile,mri","imaging,general,pathology",246-2683,3.3,262,yes,06:00,20:00
+70,Raipur Diagnostic Lab 20,Raipur,21.313361,81.571306,"full body checkup,ct scan,mri","imaging,general",701-2461,3.9,497,no,06:00,22:00
+71,Raipur Diagnostic Lab 21,Raipur,21.230685,81.620541,ct scan,imaging,757-3103,4.8,193,yes,07:00,21:00
+72,Raipur Diagnostic Lab 22,Raipur,21.201769,81.569146,"thyroid profile,mri","pathology,imaging",541-1539,4.8,412,yes,06:00,22:00
+73,Raipur Diagnostic Lab 23,Raipur,21.204545,81.584152,mri,imaging,483-2741,4.8,76,no,06:00,20:00
+74,Raipur Diagnostic Lab 24,Raipur,21.277169,81.553725,ct scan,imaging,216-1072,3.6,74,no,08:00,20:00
+75,Raipur Diagnostic Lab 25,Raipur,21.290706,81.625799,"cbc,xray,blood sugar,hba1c","pathology,radiology",669-2486,4.7,41,no,07:00,21:00
+76,Raipur Diagnostic Lab 26,Raipur,21.281176,81.628043,"thyroid profile,blood sugar,full body checkup","pathology,general",481-2259,4.2,290,no,07:00,22:00
+77,Raipur Diagnostic Lab 27,Raipur,21.256289,81.622194,"full body checkup,blood sugar,ct scan,lipid profile,mri","general,pathology,imaging",608-1959,4.4,170,no,07:00,22:00
+78,Raipur Diagnostic Lab 28,Raipur,21.212182,81.702175,"cbc,full body checkup,mri,hba1c","general,pathology,imaging",800-3259,4.1,178,yes,07:00,21:00
+79,Raipur Diagnostic Lab 29,Raipur,21.311177,81.700181,"thyroid profile,xray,cbc,hba1c","pathology,radiology",358-2202,4.0,443,yes,07:00,22:00
+80,Raipur Diagnostic Lab 30,Raipur,21.23021,81.671617,"xray,thyroid profile,full body checkup,hba1c","radiology,general,pathology",559-1071,3.5,83,no,06:00,20:00
+81,Raipur Diagnostic Lab 31,Raipur,21.289955,81.70509,xray,radiology,664-1862,3.5,169,no,08:00,22:00
+82,Raipur Diagnostic Lab 32,Raipur,21.184993,81.558017,"cbc,blood sugar,hba1c",pathology,634-2128,4.2,222,no,06:00,22:00
+83,Raipur Diagnostic Lab 33,Raipur,21.189611,81.618386,"full body checkup,mri","general,imaging",604-2331,3.3,114,no,06:00,20:00
+84,Raipur Diagnostic Lab 34,Raipur,21.293666,81.595912,"lipid profile,blood sugar",pathology,332-1610,4.1,127,no,06:00,21:00
+85,Raipur Diagnostic Lab 35,Raipur,21.309282,81.556368,full body checkup,general,789-2168,4.1,373,no,07:00,20:00
+86,Raipur Diagnostic Lab 36,Raipur,21.236205,81.704192,full body checkup,general,290-1684,4.6,134,no,08:00,21:00
+87,Raipur Diagnostic Lab 37,Raipur,21.255234,81.612923,"cbc,blood sugar,ct scan,lipid profile,mri","imaging,pathology",559-2548,4.7,340,yes,06:00,20:00
+88,Raipur Diagnostic Lab 38,Raipur,21.194831,81.581163,"xray,hba1c,blood sugar,ct scan,lipid profile,mri","radiology,imaging,pathology",269-1729,3.9,165,no,08:00,20:00
+89,Raipur Diagnostic Lab 39,Raipur,21.227711,81.561471,"thyroid profile,cbc,full body checkup","general,pathology",719-2006,3.9,293,yes,07:00,22:00
+90,Raipur Diagnostic Lab 40,Raipur,21.275694,81.601044,"xray,cbc,blood sugar","radiology,pathology",240-1247,4.3,234,yes,07:00,21:00
+91,Raipur Diagnostic Lab 41,Raipur,21.31827,81.611587,"cbc,ct scan,blood sugar,hba1c","pathology,imaging",490-1506,4.4,346,yes,07:00,20:00
+92,Raipur Diagnostic Lab 42,Raipur,21.264638,81.572229,"full body checkup,ct scan,mri","imaging,general",517-2161,3.8,415,no,06:00,22:00
+93,Raipur Diagnostic Lab 43,Raipur,21.283853,81.701137,"xray,cbc,hba1c,blood sugar,ct scan,mri","pathology,imaging,radiology",396-1359,4.8,89,yes,07:00,20:00
+94,Raipur Diagnostic Lab 44,Raipur,21.25263,81.635963,"xray,cbc,blood sugar,lipid profile,mri","pathology,imaging,radiology",648-1237,3.9,356,yes,07:00,22:00
+95,Raipur Diagnostic Lab 45,Raipur,21.216988,81.669366,"xray,ct scan,mri","radiology,imaging",784-2186,3.9,154,no,08:00,22:00
+96,Raipur Diagnostic Lab 46,Raipur,21.238386,81.575529,xray,radiology,692-2982,3.8,488,yes,08:00,22:00
+97,Raipur Diagnostic Lab 47,Raipur,21.307587,81.59521,"ct scan,mri",imaging,293-2731,4.7,428,no,07:00,20:00
+98,Raipur Diagnostic Lab 48,Raipur,21.237784,81.613033,"xray,full body checkup","radiology,general",526-2932,3.4,375,no,06:00,20:00
+99,Raipur Diagnostic Lab 49,Raipur,21.177529,81.696383,"xray,ct scan,mri","radiology,imaging",219-1243,3.5,86,no,06:00,21:00
+100,Raipur Diagnostic Lab 50,Raipur,21.209422,81.569096,full body checkup,general,264-991,4.5,265,yes,08:00,22:00

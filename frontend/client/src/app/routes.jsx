@@ -11,6 +11,7 @@ import { MedicalRecords } from "./pages/MedicalRecords";
 import { NotFound } from "./pages/NotFound";
 import IntegratedHealthDashboard from "./pages/IntegratedHealthDashboard";
 import Lab from "./pages/lab";
+import LabFinding from "./pages/LabFinding";
 
 export const router = createBrowserRouter([
   {
@@ -27,7 +28,8 @@ export const router = createBrowserRouter([
       { path: "records", Component: MedicalRecords },
       { path: "*", Component: NotFound },
       { path:"records" ,Component:IntegratedHealthDashboard},
-      { path:"lab" ,Component:Lab}
+      { path:"lab" ,Component:Lab},
+      { path:"labs", Component: LabFinding }
     
     ],
   },
