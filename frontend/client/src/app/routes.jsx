@@ -9,6 +9,7 @@ import { Login } from "./pages/Login";
 import { Signup } from "./pages/Signup";
 import { MedicalRecords } from "./pages/MedicalRecords";
 import { NotFound } from "./pages/NotFound";
+import IntegratedHealthDashboard from "./pages/IntegratedHealthDashboard";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ export const router = createBrowserRouter([
       { path: "signup", Component: Signup },
       { path: "records", Component: MedicalRecords },
       { path: "*", Component: NotFound },
+      { path:"records" ,Component:IntegratedHealthDashboard}
     ],
   },
 ]);
