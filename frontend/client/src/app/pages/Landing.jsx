@@ -56,9 +56,9 @@ export function Landing() {
               <span className="text-xs md:text-sm text-cyan-100 font-semibold tracking-wide uppercase">AI-Powered Healthcare</span>
             </motion.div>
 
-            <h1 className="text-4xl sm:text-6xl lg:text-8xl font-black leading-tight text-white tracking-tight">
+            <h1 className="text-7xl font-black leading-tight text-white tracking-tight">
               Predict symptoms. <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Find doctors.</span>
+              <span className="text-transparent text-7xl bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Find doctors.</span>
             </h1>
 
             <p className="text-lg md:text-2xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
@@ -68,14 +68,14 @@ export function Landing() {
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-6">
               <Link
                 to="/symptoms"
-                className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 bg-cyan-600 text-white rounded-2xl hover:bg-cyan-500 transition-all shadow-[0_0_20px_rgba(8,145,178,0.3)] font-bold text-lg"
+                className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-cyan-600 text-white rounded-2xl hover:bg-cyan-500 transition-all shadow-[0_0_20px_rgba(8,145,178,0.3)] font-bold text-lg"
               >
                 Check Symptoms
                 <ArrowRight className="size-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/doctors"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-2xl hover:bg-white/20 transition-all font-bold text-lg"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-2xl hover:bg-white/20 transition-all font-bold text-lg"
               >
                 Find Doctors
               </Link>
