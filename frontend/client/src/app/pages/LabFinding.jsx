@@ -97,11 +97,7 @@ export default function LabFinding() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-slate-50 pb-20">
       {/* Header */}
-<<<<<<< HEAD
-      <div className="bg-linear-to-r from-[#0092B8] to-[#007a99] text-white rounded-lg">
-=======
       <div className="bg-linear-to-r from-blue-600 to-blue-700 text-white">
->>>>>>> 3bda449f1263bdafa8396904fd6ed182ed0aee65
         <div className="max-w-7xl mx-auto px-6 py-12">
           <h1 className="text-4xl font-bold mb-2">Find Diagnostic Labs</h1>
           <p className="text-blue-100 text-lg">Search and compare labs based on tests, price, rating, and services</p>
