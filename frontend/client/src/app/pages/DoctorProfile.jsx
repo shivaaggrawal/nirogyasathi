@@ -1,11 +1,11 @@
-import { useParams, Link } from "react-router";
+import { useLocation, useParams, Link } from "react-router";
 import { MapPin, Star, Calendar, Clock, Award, GraduationCap, Briefcase, Phone, Mail, ArrowLeft, Heart } from "lucide-react";
 import { useState } from "react";
 import { ImageWithFallback } from "../ImageWithFallback";
 
 const MOCK_DOCTOR_DETAILS = {
   1: {
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Priya Sharma",
     photo: "https://images.unsplash.com/photo-1632054224477-c9cb3aae1b7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzc1MTU0NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     specialization: "Cardiology",
     qualification: "MD, FACC",
@@ -14,16 +14,16 @@ const MOCK_DOCTOR_DETAILS = {
     gender: "Female",
     rating: 4.9,
     reviewCount: 234,
-    clinic: "Heart Care Medical Center",
-    address: "1234 Medical Plaza, Suite 500",
-    city: "New York",
-    phone: "+1 (555) 123-4567",
-    email: "dr.johnson@heartcare.com",
-    about: "Dr. Sarah Johnson is a board-certified cardiologist with over 15 years of experience in treating cardiovascular diseases. She specializes in preventive cardiology, heart failure management, and cardiac imaging. Dr. Johnson is committed to providing personalized, compassionate care to each of her patients.",
+    clinic: "Apollo Hospitals",
+    address: "Plot No. 13, Parsik Hill Road, Off Uran Road",
+    city: "Mumbai",
+    phone: "+91 98765 43210",
+    email: "dr.sharma@apollohospitals.com",
+    about: "Dr. Priya Sharma is a board-certified cardiologist with over 15 years of experience in treating cardiovascular diseases. She specializes in preventive cardiology, heart failure management, and cardiac imaging. Dr. Sharma is committed to providing personalized, compassionate care to each of her patients.",
     education: [
-      "MD - Harvard Medical School (2007)",
-      "Residency in Internal Medicine - Johns Hopkins Hospital (2010)",
-      "Fellowship in Cardiology - Mayo Clinic (2013)"
+      "MD - AIIMS Delhi (2007)",
+      "Residency in Internal Medicine - PGIMER Chandigarh (2010)",
+      "Fellowship in Cardiology - CMC Vellore (2013)"
     ],
     specialties: [
       "Preventive Cardiology",
@@ -41,19 +41,19 @@ const MOCK_DOCTOR_DETAILS = {
     ],
     reviews: [
       {
-        author: "John Smith",
+        author: "Rajesh Gupta",
         rating: 5,
         date: "2 weeks ago",
-        comment: "Dr. Johnson is exceptional! She took the time to explain everything and made me feel comfortable throughout my treatment."
+        comment: "Dr. Sharma is exceptional! She took the time to explain everything and made me feel comfortable throughout my treatment."
       },
       {
-        author: "Mary Davis",
+        author: "Meera Singh",
         rating: 5,
         date: "1 month ago",
         comment: "Highly recommend! Professional, knowledgeable, and truly cares about her patients."
       },
       {
-        author: "Robert Wilson",
+        author: "Amit Kumar",
         rating: 4,
         date: "2 months ago",
         comment: "Great experience overall. Very thorough examination and clear explanations."
@@ -62,15 +62,50 @@ const MOCK_DOCTOR_DETAILS = {
   }
 };
 
+function buildDoctorProfileFromCard(card) {
+  const doctorName = card.name || "Doctor";
+  const specializatonLabel = card.specialization || "General Medicine";
+
+  return {
+    name: doctorName,
+    photo: `https://ui-avatars.com/api/?name=${encodeURIComponent(doctorName)}&background=0ea5e9&color=ffffff&size=256`,
+    specialization: specializatonLabel,
+    qualification: `${specializatonLabel} Specialist`,
+    experience: card.experience ?? 0,
+    age: "N/A",
+    gender: "N/A",
+    rating: card.rating ?? 0,
+    reviewCount: card.reviewCount ?? 0,
+    clinic: card.hospitalName || "Gwalior Clinic",
+    address: card.location || "Gwalior, Madhya Pradesh",
+    city: card.location || "Gwalior",
+    phone: "+91 00000 00000",
+    email: "appointments@nirogyasathi.local",
+    about: `${doctorName} is listed in the Gwalior doctor directory for ${specializatonLabel.toLowerCase()} consultations.`,
+    education: [`Experience: ${card.experience ?? 0} years`],
+    specialties: [specializatonLabel],
+    availability: [
+      {
+        day: "Available",
+        time: card.availability || "Contact clinic for timings"
+      }
+    ],
+    reviews: []
+  };
+}
+
 export function DoctorProfile() {
   const { id } = useParams();
+  const location = useLocation();
   const [activeTab, setActiveTab] = useState("overview");
   const [isSaved, setIsSaved] = useState(false);
-  
-  const doctor = MOCK_DOCTOR_DETAILS[id] || MOCK_DOCTOR_DETAILS[1];
+
+  const doctor = location.state?.doctor
+    ? buildDoctorProfileFromCard(location.state.doctor)
+    : MOCK_DOCTOR_DETAILS[id] || MOCK_DOCTOR_DETAILS[1];
   
   return (
-    <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5">
+    <div className="min-h-[calc(100vh-4rem)] bg-linear-to-br from-primary/5 via-secondary/5 to-accent/5">
       {/* Header Banner */}
       <div className="bg-white border-b border-primary/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -92,7 +127,7 @@ export function DoctorProfile() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-2 -right-2 size-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg">
+              <div className="absolute -bottom-2 -right-2 size-12 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg">
                 <Star className="size-6 fill-white text-white" />
               </div>
             </div>
@@ -200,7 +235,7 @@ export function DoctorProfile() {
                 
                 <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="size-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
+                    <div className="size-10 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
                       <GraduationCap className="size-5 text-white" />
                     </div>
                     <h2 className="text-xl font-bold">Education & Training</h2>
@@ -208,7 +243,7 @@ export function DoctorProfile() {
                   <ul className="space-y-3">
                     {doctor.education.map((edu, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <div className="size-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                        <div className="size-2 rounded-full bg-primary mt-2 shrink-0" />
                         <span className="text-muted-foreground">{edu}</span>
                       </li>
                     ))}
@@ -217,7 +252,7 @@ export function DoctorProfile() {
                 
                 <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="size-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
+                    <div className="size-10 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
                       <Award className="size-5 text-white" />
                     </div>
                     <h2 className="text-xl font-bold">Specialties</h2>
@@ -304,7 +339,7 @@ export function DoctorProfile() {
             {/* Location Card */}
             <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="size-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
+                <div className="size-10 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
                   <MapPin className="size-5 text-white" />
                 </div>
                 <h3 className="font-bold">Location</h3>

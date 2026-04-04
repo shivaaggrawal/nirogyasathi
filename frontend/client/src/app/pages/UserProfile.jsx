@@ -51,12 +51,12 @@ export function UserProfile() {
   ];
   
   return (
-    <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 py-12">
+    <div className="min-h-[calc(100vh-4rem)] bg-linear-to-br from-primary/5 via-secondary/5 to-accent/5 py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         {/* Header */}
         <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6 md:p-8 mb-6">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-            <div className="size-24 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-white">
+            <div className="size-24 bg-linear-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-white">
               <User className="size-12" />
             </div>
             <div className="flex-1">

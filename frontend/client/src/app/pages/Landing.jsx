@@ -58,10 +58,10 @@ export function Landing() {
 
             <h1 className="text-7xl font-black leading-tight text-white tracking-tight">
               Predict symptoms. <br />
-              <span className="text-transparent text-7xl bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Find doctors.</span>
+              <span className="text-transparent text-7xl bg-clip-text bg-linear-to-r from-cyan-400 to-blue-500">Find doctors.</span>
             </h1>
 
-            <p className="text-lg md:text-2xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
+            <p className="text-2xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
               Experience the future of healthcare with our AI-driven diagnostic tools and a verified network of top-tier medical professionals.
             </p>
 
@@ -111,7 +111,7 @@ export function Landing() {
                 key={index}
                 variants={fadeInUp}
                 whileHover={{ y: -10 }}
-                className="p-8 bg-white rounded-[2rem] border border-slate-100 shadow-xl shadow-slate-200/50 hover:shadow-cyan-100 transition-all"
+                className="p-8 bg-white rounded-4xl border border-slate-100 shadow-xl shadow-slate-200/50 hover:shadow-cyan-100 transition-all"
               >
                 <div className="size-14 bg-cyan-50 rounded-2xl flex items-center justify-center mb-6 text-cyan-600">
                   <feature.icon className="size-7" />
@@ -124,7 +124,7 @@ export function Landing() {
         </div>
       </section>
 
-      {/* --- Professional Stats (Minimalist) --- */}
+      {/* --- Professional Stats (Minimalist) ---
       <section className="py-20 bg-slate-900 overflow-hidden relative">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
             <div className="absolute top-10 left-10 size-64 bg-cyan-500 rounded-full blur-[120px]" />
@@ -145,7 +145,7 @@ export function Landing() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* --- Trust & Testimonials (Clean Layout) --- */}
       <section className="py-24 bg-white">
@@ -160,7 +160,7 @@ export function Landing() {
               <img
                 src="https://images.unsplash.com/photo-1758691461516-7e716e0ca135?auto=format&fit=crop&q=80&w=1000"
                 alt="Doctor"
-                className="rounded-[3rem] shadow-2xl object-cover h-[500px] w-full"
+                className="rounded-6xl shadow-2xl object-cover h-125 w-full"
               />
             </motion.div>
             
@@ -191,7 +191,7 @@ export function Landing() {
         <div className="container mx-auto px-6">
           <motion.div 
             whileHover={{ scale: 1.01 }}
-            className="bg-gradient-to-br from-cyan-600 to-blue-700 rounded-[3rem] p-12 md:p-20 text-center text-white shadow-2xl shadow-cyan-100"
+            className="bg-linear-to-br from-cyan-600 to-blue-700 rounded-6xl p-12 md:p-20 text-center text-white shadow-2xl shadow-cyan-100"
           >
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Ready for a Healthier Life?</h2>
             <p className="text-cyan-100 text-lg md:text-xl mb-12 max-w-2xl mx-auto opacity-90">
