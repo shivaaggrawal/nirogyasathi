@@ -58,8 +58,8 @@ export default function IntegratedHealthDashboard() {
           
           {/* --- Left Column: The Profile Card --- */}
           <aside className="lg:col-span-4 space-y-6">
-            <div className="bg-white rounded-[2rem] overflow-hidden shadow-xl shadow-cyan-900/5 border border-slate-100">
-              <div className="h-24 bg-gradient-to-r from-cyan-500 to-blue-600" />
+            <div className="bg-white rounded-4xl overflow-hidden shadow-xl shadow-cyan-900/5 border border-slate-100">
+              <div className="h-24 bg-linear-to-r from-cyan-500 to-blue-600" />
               <div className="px-6 pb-6">
                 <div className="relative -mt-12 mb-4">
                   <div className="size-24 bg-white p-1 rounded-2xl shadow-lg">
@@ -100,7 +100,7 @@ export default function IntegratedHealthDashboard() {
             </div>
 
             {/* Quick Health Insight Tile */}
-            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[2rem] p-6 text-white shadow-lg">
+            <div className="bg-linear-to-br from-slate-900 to-slate-800 rounded-4xl p-6 text-white shadow-lg">
               <div className="flex items-center justify-between mb-4">
                 <Activity className="size-6 text-cyan-400" />
                 <span className="text-[10px] bg-white/10 px-2 py-1 rounded-full">Live Stats</span>
@@ -135,7 +135,7 @@ export default function IntegratedHealthDashboard() {
             {/* The Record Bento Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {filteredRecords.map(record => (
-                <div key={record.id} className="group bg-white p-5 rounded-[2rem] border border-slate-100 shadow-sm hover:shadow-xl hover:shadow-cyan-900/5 transition-all duration-300">
+                <div key={record.id} className="group bg-white p-5 rounded-4xl border border-slate-100 shadow-sm hover:shadow-xl hover:shadow-cyan-900/5 transition-all duration-300">
                   <div className="flex justify-between items-start mb-4">
                     <div className="size-12 bg-slate-50 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                       <FileText className="size-6 text-cyan-600" />
@@ -169,7 +169,7 @@ export default function IntegratedHealthDashboard() {
 
             {/* Empty State */}
             {filteredRecords.length === 0 && (
-              <div className="bg-white rounded-[2rem] p-12 text-center border-2 border-dashed border-slate-200">
+              <div className="bg-white rounded-4xl p-12 text-center border-2 border-dashed border-slate-200">
                 <p className="text-slate-400">No records found in this category.</p>
               </div>
             )}

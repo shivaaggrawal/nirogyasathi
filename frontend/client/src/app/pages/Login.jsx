@@ -21,7 +21,7 @@ export function Login() {
         <div className="w-full max-w-md space-y-8">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 mb-6">
-              <div className="bg-gradient-to-br from-primary to-cyan-600 p-3 rounded-xl">
+              <div className="bg-linear-to-br from-primary to-cyan-600 p-3 rounded-xl">
                 <Activity className="size-8 text-white" />
               </div>
             </div>
@@ -121,11 +121,11 @@ export function Login() {
       </div>
       
       {/* Right Side - Image */}
-      <div className="hidden lg:block relative bg-gradient-to-br from-primary/10 to-secondary/10">
+      <div className="hidden lg:block relative bg-linear-to-br from-primary/10 to-secondary/10">
         <div className="absolute inset-0 flex items-center justify-center p-12">
           <div className="max-w-md text-center space-y-6">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl" />
+              <div className="absolute inset-0 bg-linear-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl" />
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-primary/10">
                 <ImageWithFallback
                   src="https://images.unsplash.com/photo-1576089235406-0612d7bb033e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwcGF0aWVudHMlMjBoZWFsdGhjYXJlfGVufDF8fHx8MTc3NTE4OTUwOHww&ixlib=rb-4.1.0&q=80&w=1080"

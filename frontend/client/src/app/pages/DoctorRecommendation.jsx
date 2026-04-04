@@ -91,13 +91,13 @@ export function DoctorRecommendation() {
   });
   
   return (
-    <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 py-12">
+    <div className="min-h-[calc(100vh-4rem)] bg-linear-to-br from-primary/5 via-secondary/5 to-accent/5 py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-4">
             Find Your{" "}
-            <span className="bg-gradient-to-r from-primary to-cyan-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary to-cyan-600 bg-clip-text text-transparent">
               Perfect Doctor
             </span>
           </h1>
@@ -270,7 +270,7 @@ export function DoctorRecommendation() {
               to={`/doctors/${doctor.id}`}
               className="group bg-white rounded-2xl shadow-lg border border-primary/10 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all"
             >
-              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10">
+              <div className="relative h-48 overflow-hidden bg-linear-to-br from-primary/10 to-secondary/10">
                 <ImageWithFallback
                   src={doctor.photo}
                   alt={doctor.name}
@@ -308,7 +308,7 @@ export function DoctorRecommendation() {
                 
                 <div className="space-y-2 pt-4 border-t border-primary/10">
                   <div className="flex items-start gap-2 text-sm">
-                    <MapPin className="size-4 text-muted-foreground flex-shrink-0 mt-0.5" />
+                    <MapPin className="size-4 text-muted-foreground shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium">{doctor.clinic}</p>
                       <p className="text-muted-foreground">{doctor.city}</p>

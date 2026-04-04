@@ -73,7 +73,7 @@ export function SymptomChecker() {
             <Sparkles className="size-3" /> AI Diagnostic Assistant
           </div>
           <h1 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight mb-2">
-            Symptom <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Analysis</span>
+            Symptom <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-600 to-blue-600">Analysis</span>
           </h1>
           <p className="text-slate-500 text-base max-w-lg mx-auto leading-relaxed">
             Our neural network will identify patterns and suggest next steps.
@@ -87,7 +87,7 @@ export function SymptomChecker() {
               value={text}
               onChange={(e) => setText(e.target.value)}
               placeholder="Start typing your symptoms here..."
-              className="w-full p-5 bg-slate-50 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-cyan-500/10 focus:border-cyan-500 outline-none transition-all text-base min-h-[120px] text-slate-700"
+              className="w-full p-5 bg-slate-50 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-cyan-500/10 focus:border-cyan-500 outline-none transition-all text-base min-h-30 text-slate-700"
             />
             
             <div className="flex flex-wrap gap-2">
@@ -126,7 +126,7 @@ export function SymptomChecker() {
               {/* Emergency Banner */}
               {predictionData.severity?.emergency_alert && (
                 <motion.div variants={fadeInUp} className="bg-red-50 border border-red-200 rounded-2xl p-5 flex items-center gap-4 shadow-md">
-                  <div className="bg-red-500 p-3 rounded-xl flex-shrink-0">
+                  <div className="bg-red-500 p-3 rounded-xl shrink-0">
                     <ShieldAlert className="size-6 text-white" />
                   </div>
                   <div className="space-y-0.5">
@@ -170,7 +170,7 @@ export function SymptomChecker() {
               </div>
 
               {/* Conclusion Card */}
-              <motion.div variants={fadeInUp} className="bg-slate-950 rounded-[2rem] p-8 md:p-10 text-white">
+              <motion.div variants={fadeInUp} className="bg-slate-950 rounded-4xl p-8 md:p-10 text-white">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="size-12 bg-white/10 backdrop-blur-md rounded-xl flex items-center justify-center text-cyan-400 border border-white/10">
                     <HeartPulse className="size-6" />

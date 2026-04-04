@@ -70,7 +70,7 @@ export function DoctorProfile() {
   const doctor = MOCK_DOCTOR_DETAILS[id] || MOCK_DOCTOR_DETAILS[1];
   
   return (
-    <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5">
+    <div className="min-h-[calc(100vh-4rem)] bg-linear-to-br from-primary/5 via-secondary/5 to-accent/5">
       {/* Header Banner */}
       <div className="bg-white border-b border-primary/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -92,7 +92,7 @@ export function DoctorProfile() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-2 -right-2 size-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg">
+              <div className="absolute -bottom-2 -right-2 size-12 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg">
                 <Star className="size-6 fill-white text-white" />
               </div>
             </div>
@@ -200,7 +200,7 @@ export function DoctorProfile() {
                 
                 <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="size-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
+                    <div className="size-10 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
                       <GraduationCap className="size-5 text-white" />
                     </div>
                     <h2 className="text-xl font-bold">Education & Training</h2>
@@ -208,7 +208,7 @@ export function DoctorProfile() {
                   <ul className="space-y-3">
                     {doctor.education.map((edu, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <div className="size-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                        <div className="size-2 rounded-full bg-primary mt-2 shrink-0" />
                         <span className="text-muted-foreground">{edu}</span>
                       </li>
                     ))}
@@ -217,7 +217,7 @@ export function DoctorProfile() {
                 
                 <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="size-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
+                    <div className="size-10 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
                       <Award className="size-5 text-white" />
                     </div>
                     <h2 className="text-xl font-bold">Specialties</h2>
@@ -304,7 +304,7 @@ export function DoctorProfile() {
             {/* Location Card */}
             <div className="bg-white rounded-2xl shadow-lg border border-primary/10 p-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="size-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
+                <div className="size-10 bg-linear-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
                   <MapPin className="size-5 text-white" />
                 </div>
                 <h3 className="font-bold">Location</h3>
