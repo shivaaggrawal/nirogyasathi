@@ -6,7 +6,7 @@ import { ImageWithFallback } from "../ImageWithFallback";
 const MOCK_DOCTORS = [
   {
     id: 1,
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Priya Sharma",
     photo: "https://images.unsplash.com/photo-1632054224477-c9cb3aae1b7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzc1MTU0NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     specialization: "Cardiology",
     qualification: "MD, FACC",
@@ -15,13 +15,13 @@ const MOCK_DOCTORS = [
     gender: "Female",
     rating: 4.9,
     reviewCount: 234,
-    clinic: "Heart Care Medical Center",
-    city: "New York",
+    clinic: "Apollo Hospitals",
+    city: "Mumbai",
     availability: "Available Today"
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
+    name: "Dr. Rajesh Kumar",
     photo: "https://images.unsplash.com/photo-1632054226038-ed6997bfce1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhc2lhbiUyMGRvY3RvciUyMGhlYWx0aGNhcmV8ZW58MXx8fHwxNzc1MTY2ODMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     specialization: "Neurology",
     qualification: "MD, PhD",
@@ -30,13 +30,13 @@ const MOCK_DOCTORS = [
     gender: "Male",
     rating: 4.8,
     reviewCount: 189,
-    clinic: "Brain & Spine Institute",
-    city: "San Francisco",
+    clinic: "Max Healthcare",
+    city: "Delhi",
     availability: "Available Tomorrow"
   },
   {
     id: 3,
-    name: "Dr. Emily Rodriguez",
+    name: "Dr. Anjali Patel",
     photo: "https://images.unsplash.com/photo-1758691462119-792279713969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGRvY3RvciUyMHNwZWNpYWxpc3R8ZW58MXx8fHwxNzc1MjIyMjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     specialization: "Pediatrics",
     qualification: "MD, FAAP",
@@ -45,13 +45,13 @@ const MOCK_DOCTORS = [
     gender: "Female",
     rating: 4.9,
     reviewCount: 312,
-    clinic: "Children's Wellness Clinic",
-    city: "Los Angeles",
+    clinic: "Fortis Hospital",
+    city: "Bangalore",
     availability: "Available Today"
   },
   {
     id: 4,
-    name: "Dr. James Williams",
+    name: "Dr. Vikram Singh",
     photo: "https://images.unsplash.com/photo-1758691463605-f4a3a92d6d37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWxlJTIwZG9jdG9yJTIwbWVkaWNhbHxlbnwxfHx8fDE3NzUyMjIyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     specialization: "Orthopedics",
     qualification: "MD, FAAOS",
@@ -60,43 +60,13 @@ const MOCK_DOCTORS = [
     gender: "Male",
     rating: 4.7,
     reviewCount: 156,
-    clinic: "Advanced Orthopedic Care",
-    city: "Chicago",
+    clinic: "AIIMS",
+    city: "Chennai",
     availability: "Available Next Week"
-  },
-  {
-    id: 5,
-    name: "Dr. Aisha Patel",
-    photo: "https://images.unsplash.com/photo-1576669801945-7a346954da5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwYW1lcmljYW4lMjBkb2N0b3J8ZW58MXx8fHwxNzc1MjIyMjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    specialization: "Dermatology",
-    qualification: "MD, FAAD",
-    experience: 10,
-    age: 37,
-    gender: "Female",
-    rating: 4.8,
-    reviewCount: 201,
-    clinic: "Skin Health Center",
-    city: "Boston",
-    availability: "Available Today"
-  },
-  {
-    id: 6,
-    name: "Dr. Robert Thompson",
-    photo: "https://images.unsplash.com/photo-1758691461513-88a0aef72160?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjBkb2N0b3IlMjBleHBlcmllbmNlZHxlbnwxfHx8fDE3NzUyMjIyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    specialization: "General Medicine",
-    qualification: "MD, FACP",
-    experience: 25,
-    age: 55,
-    gender: "Male",
-    rating: 4.9,
-    reviewCount: 428,
-    clinic: "Family Health Associates",
-    city: "New York",
-    availability: "Available Tomorrow"
   },
 ];
 
-const CITIES = ["All Cities", "New York", "San Francisco", "Los Angeles", "Chicago", "Boston"];
+const CITIES = ["All Cities", "Mumbai", "Delhi", "Bangalore", "Chennai", "Kolkata", "Hyderabad"];
 const SPECIALIZATIONS = ["All Specializations", "Cardiology", "Neurology", "Pediatrics", "Orthopedics", "Dermatology", "General Medicine"];
 const GENDERS = ["All", "Male", "Female"];
 

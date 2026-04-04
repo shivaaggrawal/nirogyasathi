@@ -124,7 +124,7 @@ export function Landing() {
         </div>
       </section>
 
-      {/* --- Professional Stats (Minimalist) --- */}
+      {/* --- Professional Stats (Minimalist) ---
       <section className="py-20 bg-slate-900 overflow-hidden relative">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
             <div className="absolute top-10 left-10 size-64 bg-cyan-500 rounded-full blur-[120px]" />
@@ -145,7 +145,7 @@ export function Landing() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* --- Trust & Testimonials (Clean Layout) --- */}
       <section className="py-24 bg-white">

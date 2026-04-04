@@ -5,7 +5,7 @@ import { ImageWithFallback } from "../ImageWithFallback";
 
 const MOCK_DOCTOR_DETAILS = {
   1: {
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Priya Sharma",
     photo: "https://images.unsplash.com/photo-1632054224477-c9cb3aae1b7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzc1MTU0NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     specialization: "Cardiology",
     qualification: "MD, FACC",
@@ -14,16 +14,16 @@ const MOCK_DOCTOR_DETAILS = {
     gender: "Female",
     rating: 4.9,
     reviewCount: 234,
-    clinic: "Heart Care Medical Center",
-    address: "1234 Medical Plaza, Suite 500",
-    city: "New York",
-    phone: "+1 (555) 123-4567",
-    email: "dr.johnson@heartcare.com",
-    about: "Dr. Sarah Johnson is a board-certified cardiologist with over 15 years of experience in treating cardiovascular diseases. She specializes in preventive cardiology, heart failure management, and cardiac imaging. Dr. Johnson is committed to providing personalized, compassionate care to each of her patients.",
+    clinic: "Apollo Hospitals",
+    address: "Plot No. 13, Parsik Hill Road, Off Uran Road",
+    city: "Mumbai",
+    phone: "+91 98765 43210",
+    email: "dr.sharma@apollohospitals.com",
+    about: "Dr. Priya Sharma is a board-certified cardiologist with over 15 years of experience in treating cardiovascular diseases. She specializes in preventive cardiology, heart failure management, and cardiac imaging. Dr. Sharma is committed to providing personalized, compassionate care to each of her patients.",
     education: [
-      "MD - Harvard Medical School (2007)",
-      "Residency in Internal Medicine - Johns Hopkins Hospital (2010)",
-      "Fellowship in Cardiology - Mayo Clinic (2013)"
+      "MD - AIIMS Delhi (2007)",
+      "Residency in Internal Medicine - PGIMER Chandigarh (2010)",
+      "Fellowship in Cardiology - CMC Vellore (2013)"
     ],
     specialties: [
       "Preventive Cardiology",
@@ -41,19 +41,19 @@ const MOCK_DOCTOR_DETAILS = {
     ],
     reviews: [
       {
-        author: "John Smith",
+        author: "Rajesh Gupta",
         rating: 5,
         date: "2 weeks ago",
-        comment: "Dr. Johnson is exceptional! She took the time to explain everything and made me feel comfortable throughout my treatment."
+        comment: "Dr. Sharma is exceptional! She took the time to explain everything and made me feel comfortable throughout my treatment."
       },
       {
-        author: "Mary Davis",
+        author: "Meera Singh",
         rating: 5,
         date: "1 month ago",
         comment: "Highly recommend! Professional, knowledgeable, and truly cares about her patients."
       },
       {
-        author: "Robert Wilson",
+        author: "Amit Kumar",
         rating: 4,
         date: "2 months ago",
         comment: "Great experience overall. Very thorough examination and clear explanations."
