@@ -19,12 +19,12 @@ export function Root() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FAFC] font-sans">
-      {/* --- HEADER: Old Structure + New Theme Styling --- */}
+     
       <header 
         className={`sticky top-0 z-50 transition-all duration-300 ${
           scrolled 
             ? "bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm" 
-            : "bg-white border-b border-slate-100"
+            : "bg-white border-b border-slate-100 shadow-amber-50"
         }`}
       >
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +46,7 @@ export function Root() {
                 { name: "Home", path: "/" },
                 { name: "Symptom Checker", path: "/symptoms" },
                 { name: "Find Doctors", path: "/doctors" },
-                { name: "Records", path: "/records" },
+                { name: "Medical Profile", path: "/records" },
               ].map((link) => (
                 <Link
                   key={link.path}

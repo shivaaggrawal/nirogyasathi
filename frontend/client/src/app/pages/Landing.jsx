@@ -61,7 +61,7 @@ export function Landing() {
               <span className="text-transparent text-7xl bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Find doctors.</span>
             </h1>
 
-            <p className="text-lg md:text-2xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
+            <p className="text-2xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
               Experience the future of healthcare with our AI-driven diagnostic tools and a verified network of top-tier medical professionals.
             </p>
 
